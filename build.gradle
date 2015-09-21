@@ -23,6 +23,8 @@ jar {
     baseName = 'dashbotdemo'
 }
 
+task stage(dependsOn: bootRepackage)
+
 repositories {
     mavenCentral()
     maven { url "https://repo.spring.io/snapshot" }
