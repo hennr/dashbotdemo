@@ -32,8 +32,8 @@ repositories {
 }
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-devtools")
     compile("org.projectlombok:lombok")
+    compile("org.springframework.boot:spring-boot-devtools")
     compile("org.springframework.boot:spring-boot-starter-web")
     testCompile("org.springframework.boot:spring-boot-starter-test") 
 }
