@@ -1,0 +1,9 @@
+language: java
+jdk: oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: BJCJqeodHqlbp7ikg3TchEJwlVfvXQSE3odcCW//lyjuL/61UN8dHWlIGg5mvjcDEUvaRAoFuu7283kC/wel9VBClSZuvMJyNVkfcPKVjFs783hqN53rs7rDQwF3C26GEneCON41V+npRJ5Qx0tKy5yBT5BYXcmlxeBQshe2zwl9ULYsSUe1IsSfmF/yp9MGMwcQDmIPAPQt4Ke4o8J7OAWkK2O+GsRlTubnGHbvlT8Ufu5sJUhq7QLg/FzIyRFaqFXUxg1NkL9CVSfTD9d/yzL+N5JqaOlPaZ05BkAMk69UyNxWhdyj23EoxWLAR+bDMEyyehS4nj4oLfqVUcurPbP+/G8uh69RDf1AclbUbskVKPdC+e6b297KfxRM7v73IP1sfFx/7/9/KZst2S0vAYLD0kYDT4xyJ3kZt/pLSCJfDAyMTiXPUsFOuOoLeCQpU+yA51a3bCJTqslbRLrYS1Twqpgh5TQWkhwTEJBZdiMZFsyxbfouwP6o5EHE/w4U+g8hIj9iWL26kdctzQc2iLrR477giqC1nZJ/k2lLrmdP8QqDyzDapqjRuZXO43jWJdzFFVbEtflc3WL9og/d+OWXw0raUJhknDUcXMaDQP0aeylyaGnQHYhSJnUhiKHArIcnNmBQjdO7N5XYWLoN1wuR/pWJ4G0vgPZwO3hIvr0=
+  app: dashbotdemo
+  on:
+    repo: hennr/dashbotdemo
