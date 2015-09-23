@@ -1,6 +1,9 @@
+[![Build Status](https://secure.travis-ci.org/hennr/dashbotdemo.svg?branch=master)](http://travis-ci.org/hennr/dashbotdemo)
+
 # dashbotdemo
-A demo web app showing dashbot
 
-https://api.travis-ci.org/hennr/dashbotdemo.svg?branch=master
+This is a live demo for [dashbot](https://github.com/sbstnmsch/dashbot) on heroku.
 
-https://dashbotdemo.herokuapp.com/
+Find it right here:
+
+[https://dashbotdemo.herokuapp.com/](https://dashbotdemo.herokuapp.com/)
