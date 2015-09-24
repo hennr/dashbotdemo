@@ -37,7 +37,9 @@ dependencies {
     compile("org.projectlombok:lombok")
     compile("org.springframework.boot:spring-boot-devtools")
     compile("org.springframework.boot:spring-boot-starter-web")
+    compile("com.fasterxml.jackson.core:jackson-databind:2.6.2")
     testCompile("org.springframework.boot:spring-boot-starter-test")
+    testCompile("com.jayway.restassured:rest-assured:2.5.0")
 }
 
 jacocoTestReport {

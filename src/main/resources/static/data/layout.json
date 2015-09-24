@@ -1,7 +1,7 @@
 [
 	[
 		{ "visual": "number", "class": "storm", "title": "Collaborators",  "xhr": "/data/collaborators.json", "xhrValue": "value", "xhrInterval": 33},
-		{ "visual": "number", "class": "night-sky", "title": "Forks",  "xhr": "/data/forks.json", "xhrValue": "value", "xhrInterval": 41},
+		{ "visual": "number", "class": "night-sky", "title": "Forks",  "xhr": "/data/forks", "xhrValue": "value", "xhrInterval": 41},
 		{ "visual": "number", "class": "flower", "title": "Stargazers",  "xhr": "/data/stargazers.json", "xhrValue": "value", "xhrInterval": 19},
 		{ "visual": "number", "class": "comets", "title": "Issues",  "xhr": "/data/issues.json", "xhrValue": "value", "xhrInterval": 12, "green": "<=0", "red": ">0" }
 	],
