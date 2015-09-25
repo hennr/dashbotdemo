@@ -9,7 +9,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = DashbotdemoApplication.class)
 @WebAppConfiguration
-public class DashbotdemoApplicationTests {
+public class DashbotdemoApplicationTest {
 
 	@Test
 	public void contextLoads() {
