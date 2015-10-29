@@ -9,7 +9,7 @@
 		{ "visual": "number", "class": "comets", "build": "green", "value": "OK", "title": "Build" },
 		{ "visual": "number", "class": "skyline", "unit": "bytes", "value": "2192", "title": "Code" },
 		{ "visual": "number", "class": "desert", "unit": "percent", "build": "red", "value": "82", "title": "Coverage" },
-		{ "visual": "weather", "class": "storm", "city": "berlin", "unit": "c", "green": ">0", "red": "<=0"  }
+		{ "visual": "weather", "class": "storm", "city": "berlin,de", "unit": "c", "green": ">0", "red": "<=0"  }
 	],
 	[
 		{ "visual": "graph", "title": "Active users", "value": [101,99,402,666,801,1014,900,1100,1200]},
