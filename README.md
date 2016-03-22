@@ -1,5 +1,5 @@
 [![Build Status](https://secure.travis-ci.org/hennr/dashbotdemo.svg?branch=master)](http://travis-ci.org/hennr/dashbotdemo)
-[![Coverage Status](https://coveralls.io/repos/hennr/dashbotdemo/badge.svg?branch=master&service=github)](https://coveralls.io/github/hennr/dashbotdemo?branch=master)
+[![codecov.io](https://codecov.io/github/hennr/dashbotdemo/coverage.svg?branch=master)](https://codecov.io/github/hennr/dashbotdemo?branch=master)
 
 # dashbotdemo
 
