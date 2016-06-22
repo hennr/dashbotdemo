@@ -1,7 +1,8 @@
 package dashbotdemo;
 
-import static com.jayway.restassured.RestAssured.get;
 import org.junit.Test;
+
+import static io.restassured.RestAssured.get;
 
 public class DashbotdemoTest {
 

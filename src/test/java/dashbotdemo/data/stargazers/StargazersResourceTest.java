@@ -1,6 +1,5 @@
 package dashbotdemo.data.stargazers;
 
-import com.jayway.restassured.RestAssured;
 import dashbotdemo.AbstractRestTestClass;
 import dashbotdemo.DashbotdemoApplication;
 import org.junit.Test;
@@ -14,6 +13,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.client.MockRestServiceServer;
 import org.springframework.web.client.RestTemplate;
 
+import static io.restassured.RestAssured.get;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
 import static org.springframework.test.web.client.response.MockRestResponseCreators.withSuccess;
@@ -27,7 +27,7 @@ public class StargazersResourceTest extends AbstractRestTestClass {
     private ApplicationContext applicationContext;
 
     @Autowired
-    RestTemplate restTemplate;
+    private RestTemplate restTemplate;
 
     @Test
     public void returnsZeroOnEmptyStargazersList() {
@@ -42,7 +42,7 @@ public class StargazersResourceTest extends AbstractRestTestClass {
         githubStargazersService.restTemplate = restTemplate;
 
         // expect
-        RestAssured.get("/data/stargazers").then().assertThat().statusCode(200).body("value", equalTo(0));
+        get("/data/stargazers").then().assertThat().statusCode(200).body("value", equalTo(0));
     }
 
     @Test
@@ -99,6 +99,6 @@ public class StargazersResourceTest extends AbstractRestTestClass {
         githubStargazersService.restTemplate = restTemplate;
 
         // expect
-        RestAssured.get("/data/stargazers").then().assertThat().statusCode(200).body("value", equalTo(2));
+        get("/data/stargazers").then().assertThat().statusCode(200).body("value", equalTo(2));
     }
 }

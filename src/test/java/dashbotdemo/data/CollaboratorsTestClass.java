@@ -3,7 +3,7 @@ package dashbotdemo.data;
 import dashbotdemo.AbstractRestTestClass;
 import org.junit.Test;
 
-import static com.jayway.restassured.RestAssured.get;
+import static io.restassured.RestAssured.get;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class CollaboratorsTestClass extends AbstractRestTestClass {
