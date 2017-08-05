@@ -1,8 +1,0 @@
-.idea
-.project
-*.iml
-target/
-build/
-.gradle/
-/.nb-gradle/
-
